@@ -1,0 +1,35 @@
+#mediaqueries-01 {
+  .title_01 {
+    font-size: 20px;
+
+    @media (min-width: 770px) {
+      font-size: 40px;
+    }
+  }
+
+  .text_01 {
+    font-size: 15px;
+
+    @media (min-width: 770px) {
+      font-size: 25px;
+    }
+  }
+}
+
+#mediaqueries-02 {
+  .BlueChartParent {
+    background-color: #90e2ef;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 770px) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .BlueCube {
+    border: 1px solid darkblue;
+    color: darkblue;
+  }
+}
